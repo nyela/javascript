@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Meu Primeiro Programa</title>
+    <style>
+        body {
+            background-color: rgb(134, 104, 161);
+            color: brown;
+            font: 20pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p>Já me livei da maldição.</p>
+    <script>
+      var n1 = Number.parseInt(window.prompt ('Digite um número: '))
+      var n = Number.parseInt(window.prompt ('Digite um número: '))
+      var a= n1 + n
+      // (number + number) para adição;
+      //+ para concatenação
+
+      // Converter de String para Numero:
+      // como converter um string para número: number.parseInt(n) para converter.
+      // para número real usamos para converter: number.parseFloat(n)
+      // posso usar só number que o javaScript saber se ele é real ou inteiro exemplo: var n1 = Number(window.prompt ('Digite um número: ')) .
+      window.alert ('Asoma das duas váriavel é:'  + a)
+
+      // Conveter de Número para String:
+      //Para conveter posso colocar:String(N) ou toStrong por exemplo:window.alert ('Asoma das duas váriavel é:'  + toStrong((a))
+
+
+     //Formatando String
+     // 'S'->Não faz interpolação
+     // '+ S' -> usa concatenação;
+    // exemplo: 'o aluno' + nome +'com' + idade +'anos tirou a nota' + nota
+     // '${S}' -> usa template string
+     // exemplo: `o aluno ${nome} com ${idade} anos tirou a nota ${nota}`
+     // s.length -> Mostrar quantos caracteres a string tem;
+     // s.toUpperCase() -> mudar as letrar para maiúsculas;
+     // s.toLoverCase() -> mudar as letrar    
+    </script>
+</body>
+
+</html>
